@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "id": "eb30",
+      "title": "The React Advanced",
+      "author": "Snowin",
+      "genre": "Coding",
+      "copies": 20
+    }
+  ]
+}
