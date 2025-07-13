@@ -45,10 +45,11 @@ const BookManager = () => {
 
     return (
         <div>
-            <h2>Book Management</h2>
+            <h2 style={{textAlign:"center"}}>Book Management</h2>
             <AddBookForm onAdd={handleAddBook} />
             {editingBook && <EditBookForm book={editingBook} onUpdate={handleUpdateBook} />}
-            <BookList books={books} onEdit={handleEditBook} onDelete={handleDeleteBook} />
+            {books.length ? <BookList books={books} onEdit={handleEditBook} onDelete={handleDeleteBook} /> :
+             <p style={{textAlign : "center"}}>No Books available in the inventory</p>}
         </div>
     );
 };

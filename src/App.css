@@ -1,3 +1,12 @@
 .App {
   text-align: center;
 }
+
+#addBookForm,
+#editBookForm {
+  display: flex;
+  height: 45px;
+  gap: 7px;
+  justify-content: center;
+  margin: 10px;
+}
