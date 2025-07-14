@@ -14,7 +14,7 @@ const EditBookForm = ({ book, onUpdate }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id='editBookForm'>
       <input name="title" value={formData.title} onChange={handleChange} required />
       <input name="author" value={formData.author} onChange={handleChange} required />
       <input name="genre" value={formData.genre} onChange={handleChange} required />

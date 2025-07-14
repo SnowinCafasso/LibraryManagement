@@ -15,11 +15,11 @@ const AddBookForm = ({ onAdd }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id='addBookForm'>
       <input name="title" value={formData.title} onChange={handleChange} placeholder="Title" required />
       <input name="author" value={formData.author} onChange={handleChange} placeholder="Author" required />
       <input name="genre" value={formData.genre} onChange={handleChange} placeholder="Genre" required />
-      <input name="copies" type="number" value={formData.copies} onChange={handleChange} placeholder="Copies" required />
+      <input name="copies" type="number" value={formData.copies} onChange={handleChange} placeholder="Copies" required min={1}/>
       <button type="submit">Add Book</button>
     </form>
   );

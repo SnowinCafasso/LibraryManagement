@@ -1,11 +1,32 @@
 {
   "books": [
     {
-      "id": "eb30",
-      "title": "The React Advanced",
-      "author": "Snowin",
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "copies": 187
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "copies": 452
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "copies": 278
+    },
+    {
+      "id": "8e8b",
+      "title": "The JS man",
+      "author": "Snowin Cafasso",
       "genre": "Coding",
-      "copies": 20
+      "copies": 1500
     }
   ]
 }
